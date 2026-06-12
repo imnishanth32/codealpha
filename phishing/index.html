@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phishing Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎣 Phishing Awareness & Prevention</h1>
+    <p>Learn how to recognize and avoid phishing attacks</p>
+</header>
+
+<nav>
+    <a href="#about">What is Phishing?</a>
+    <a href="#identify">Identify Attacks</a>
+    <a href="#social">Social Engineering</a>
+    <a href="#tips">Safety Tips</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+
+<section id="about">
+    <h2>What is Phishing?</h2>
+    <p>Phishing is a cyberattack where attackers trick users into revealing sensitive information like passwords or credit card details.</p>
+</section>
+
+<section id="identify">
+    <h2>How to Recognize Phishing</h2>
+    <ul>
+        <li>⚠️ Suspicious email addresses</li>
+        <li>⚠️ Urgent messages ("Act now!")</li>
+        <li>⚠️ Fake links</li>
+        <li>⚠️ Grammar mistakes</li>
+    </ul>
+</section>
+
+<section id="social">
+    <h2>Social Engineering Tactics</h2>
+    <p>Attackers manipulate emotions:</p>
+    <ul>
+        <li>Fear ("Account blocked!")</li>
+        <li>Urgency ("Immediate action required")</li>
+        <li>Authority ("CEO request")</li>
+        <li>Curiosity ("You've won!")</li>
+    </ul>
+</section>
+
+<section id="tips">
+    <h2>Best Practices</h2>
+    <ul>
+        <li>✅ Verify sender emails</li>
+        <li>✅ Use 2FA</li>
+        <li>✅ Avoid clicking unknown links</li>
+        <li>✅ Keep software updated</li>
+    </ul>
+</section>
+
+<section id="quiz">
+    <h2>Interactive Quiz</h2>
+
+    <div class="question">
+        <p>1. You receive an email from support@amaz0n.com. What should you do?</p>
+        <button onclick="checkAnswer(this, true)">Verify sender</button>
+        <button onclick="checkAnswer(this, false)">Click immediately</button>
+    </div>
+
+    <div class="question">
+        <p>2. Which is a phishing sign?</p>
+        <button onclick="checkAnswer(this, true)">Urgent message</button>
+        <button onclick="checkAnswer(this, false)">Secure HTTPS site</button>
+    </div>
+
+    <p id="result"></p>
+</section>
+
+<footer>
+    <p>© 2026 Phishing Awareness Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
